@@ -1,8 +1,34 @@
 body{
     font-family: "OpenSans", sans-serif;
 }
+
+.nowrapp{
+    display: flex;
+}
+
 .green{
     color: rgb(84, 173, 84)
+}
+
+.nav-bar{
+    display: flex;
+    padding-left: 180px;
+    flex-direction: column;
+}
+
+.exercises_section{
+    padding-left: 180px;
+}
+
+.exercises{
+    padding-left: 10px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border: 1px solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
 }
 
 .ex8{
@@ -13,6 +39,10 @@ body{
     margin-right: 10px;
 }
 
+
+.block{
+    display: contents;
+}
 
 .Tahoma-font{
     font-family: Tahoma, sans-serif;
@@ -28,4 +58,18 @@ body{
 }
 hr{
     width: 100%;
+    height: 0px;
+}
+.ex22-content{
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+}
+.mail-to{
+    align-self: flex-end;
+}
+
+.search_link{
+    text-decoration: none;
+    margin-right: 20px;
 }
