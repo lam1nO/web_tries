@@ -1,0 +1,31 @@
+body{
+    font-family: "OpenSans", sans-serif;
+}
+.green{
+    color: rgb(84, 173, 84)
+}
+
+.ex8{
+    display: flex;
+}
+
+.ex8 > div{
+    margin-right: 10px;
+}
+
+
+.Tahoma-font{
+    font-family: Tahoma, sans-serif;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.adjective{
+    font-style: italic;
+    font-weight: bold;
+}
+hr{
+    width: 100%;
+}
